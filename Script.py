@@ -13,7 +13,7 @@ class script(object):
 - 𝚂𝙾𝚄𝚁𝙲𝙴 𝙲𝙾𝙳𝙴 𝙲𝙻𝙸𝙲𝙺 𝙷𝙴𝚁 👉 :<a href=https://t.me/filesharebotusers>𝐀𝐌𝐋-𝐔𝐏𝐃𝐀𝐓𝐄𝐒</a>
 
 <b>DEVS:</b>
-- 𝙳𝚎𝚟 1<a href=https://t.me/V_I_J_A_Y_THALAPATHY1>AL-IRFAN</a>"""
+- 𝙳𝚎𝚟 1<a href=https://t.me/V_I_J_A_Y_THALAPATHY1>𝐀𝐋-𝐈𝐑𝐅𝐀𝐍</a>"""
 
 
     FILE_TXT = """➤ 𝐇𝐞𝐥𝐩: 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐞 𝐌𝐨𝐝𝐮𝐥𝐞../
