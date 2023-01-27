@@ -1515,9 +1515,15 @@ async def auto_filter(client, msg, spoll=False):
             [InlineKeyboardButton(text=f"📄 𝗣𝗮𝗴𝗲 1/{math.ceil(int(total_results) / 6)}", callback_data="pages"),
              InlineKeyboardButton(text="𝗡𝗲𝘅𝘁 ➡️", callback_data=f"next_{req}_{key}_{offset}")]
         )
+        btn.insert(1,
+            [InlineKeyboardButton(text="💢 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 💢",url="https://t.me/+UJUWoqMGIgNmNjc1")]
+        )
     else:
         btn.append(
             [InlineKeyboardButton(text="📄 𝗣𝗮𝗴𝗲 1/1", callback_data="pages")]
+        )
+        btn.insert(1,
+            [InlineKeyboardButton(text="💢 ᴊᴏɪɴ ᴏᴜʀ ɢʀᴏᴜᴘ 💢",url="https://t.me/+UJUWoqMGIgNmNjc1")]
         )
     imdb = await get_poster(search, file=(files[0]).file_name) if settings["imdb"] else None
     TEMPLATE = settings['template']
