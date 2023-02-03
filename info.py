@@ -58,7 +58,7 @@ BUTTON_LOCK = bool(environ.get("BUTTON_LOCK", False))
 
 # Others
 DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in environ.get('DELETE_CHANNELS', '0').split()]
-IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "300"))
+IMDB_DELET_TIME = int(environ.get('IMDB_DELET_TIME', "600"))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001857768683'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'V_I_J_A_Y_THALAPATHY1')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
@@ -66,7 +66,7 @@ IMDB = is_enabled((environ.get('IMDB', "True")), True)
 SINGLE_BUTTON = is_enabled((environ.get('SINGLE_BUTTON', "True")), True)
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", "📂Fɪʟᴇɴᴀᴍᴇ : {file_name}\n\n╔═════•✧❅✦❅✧•═════╗\n▣ <a href='https://t.me/filesharebotusers'> **AML UPDATES** </a>\n╚═════•✧❅✦❅✧•═════╝\n\n **JOIN, SHARE & SUPPORT**")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", None)
-IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🔖 Tɪᴛʟᴇ</b>: <a href={url}>{title}</a>\n🛸  Iɴғᴏ : {release_date}\n\n🎭 Gᴇɴʀᴇ: {genres}\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)\n🌍 Cᴏᴜɴᴛʀʏ : <code>{countries}</code>\n🎙 Lᴀɴɢᴜᴀɢᴇ : <code>{languages}</code>\n\n🎬  Dɪʀᴇᴄᴛᴏʀ : <code>{director}</code>\n📝  Wʀɪᴛᴇʀꜱ : <code>{writer}</code>\n\n©None")
+IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", "<b>🔖 Tɪᴛʟᴇ</b>: <a href={url}>{title}</a>\n🛸  Iɴғᴏ : {release_date}\n\n🎭 Gᴇɴʀᴇ: {genres}\n🌟 Rᴀᴛɪɴɢ: <a href={url}/ratings>{rating}</a> / 10 (based on {votes} user ratings.)\n🌍 Cᴏᴜɴᴛʀʏ : <code>{countries}</code>\n🎙 Lᴀɴɢᴜᴀɢᴇ : <code>{languages}</code>\n\n🎬  Dɪʀᴇᴄᴛᴏʀ : <code>{director}</code>\n📝  Wʀɪᴛᴇʀꜱ : <code>{writer}</code>\n\n©{message.chat.title}")
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
 MAX_LIST_ELM = environ.get("MAX_LIST_ELM", None)
